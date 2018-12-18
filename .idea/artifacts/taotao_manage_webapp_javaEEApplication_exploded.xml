@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="taotao-manage-webapp:javaEEApplication exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/taotao_manage_webapp_javaEEApplication_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="taotao-manage-webapp/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Maven: javax.servlet:jstl:1.0.2" />
+        <element id="library" level="project" name="Maven: taglibs:standard:1.0.4" />
+        <element id="library" level="project" name="Maven: xalan:xalan:2.6.0" />
+        <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+        <element id="archive" name="taotao-manage.jar">
+          <element id="module-output" name="taotao-manage" />
+        </element>
+        <element id="archive" name="taotao-manage-mapper.jar">
+          <element id="module-output" name="taotao-manage-mapper" />
+        </element>
+        <element id="archive" name="taotao-manage-pojo.jar">
+          <element id="module-output" name="taotao-manage-pojo" />
+        </element>
+        <element id="archive" name="taotao-manage-service.jar">
+          <element id="module-output" name="taotao-manage-service" />
+        </element>
+        <element id="archive" name="taotao-parent.jar">
+          <element id="module-output" name="taotao-parent" />
+        </element>
+      </element>
+      <element id="artifact" artifact-name="taotao-common:war" />
+      <element id="artifact" artifact-name="taotao-manage-webapp:war" />
+    </root>
+  </artifact>
+</component>
